@@ -16,8 +16,12 @@ https://blog.webdevsimplified.com/2022-07/react-folder-structure/
 ## component directory
 ![Preview Image](./component-form.png)
 ![Preview Image](./component-ui.png)
-#### Here component directory is further broken down into subfolders. For example we "form" folder for form specific controls like checkboxes, inputs, dat picker, etc, "ui" folder which contains all UI components like buttons, modals, cards etc. Components are like general small components. There might be some components they won't even store any state, we just give them data and they render the output to the screen.
+#### Here component directory is further broken down into subfolders. For example we "form" folder for form specific controls like checkboxes, inputs, dat picker, etc, "ui" folder which contains all UI components like buttons, modals, cards etc. Components are like general small components. There might be some components they won't even store any state, we just give them data and they render what to answer to my fiance
 
 ## utils directory
 ![Preview Image](./utils.png)
 #### This folder contains all the utility functios such as formatters. Generally it is used to store pure functions that has no side effects and always return the exact same thing every single time we give it the same input.
+
+
+
+

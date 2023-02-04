@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+// import './App.css'
+import Home from './pages/Home/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App flex">
-      <h1 className='text-red-700'>helo world</h1>
+    <div>
+      <Home />
     </div>
   )
 }
