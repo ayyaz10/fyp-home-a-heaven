@@ -2,6 +2,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    // colors: {
+    //   // myGray: "#db3552",
+    // },
     extend: {
       margin: {
         320: "320px",

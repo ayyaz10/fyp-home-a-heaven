@@ -1,10 +1,10 @@
 import React from "react";
-import TopNav from "../../components/ui/TopNav";
+import Header from "./Header";
 
 function Home() {
   return (
     <div>
-        <TopNav />
+        <Header />
     </div>
   )
 }
