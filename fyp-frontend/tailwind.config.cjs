@@ -6,6 +6,9 @@ module.exports = {
     //   // myGray: "#db3552",
     // },
     extend: {
+      // backgroundImage: {
+      //   'hero-image': "url('/src/assets/hero-image.jpg')"
+      // },
       margin: {
         320: "320px",
       },

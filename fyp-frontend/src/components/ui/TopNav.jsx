@@ -3,10 +3,10 @@ import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare, AiFillLinkedin } 
 function TopNav() {
     const ICON_SIZE = "1.6rem";
   return (
-    <div className="border py-1">
-        <div className="max-w-3xl lg:max-w-5xl xl:max-w-6xl px-1 sm:px-6 mx-auto">
+    <div className="border py-1 z-50 relative bg-white">
+        <div className="max-w-3xl md:max-w-5xl xl:max-w-6xl sm:px-3 px-2 md:px-6 mx-auto">
             <div className="flex items-center text-gray-500">
-                <ul className="flex items-center ml-auto text-sm">
+                <ul className="flex items-center ml-auto text-xs sm:text-sm">
                     <li><a href="#">My Whislist</a></li>
                     <li className="ml-4"><a href="#">Track Your Order</a></li>
                 </ul>
