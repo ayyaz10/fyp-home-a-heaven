@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
-import TopNav from "../../components/ui/TopNav";
-import Nav from "../../components/ui/Nav";
+import React from "react";
+import TopNav from "./TopNav";
+import Nav from "./Nav";
 function Header() {
   return (
         <header>
