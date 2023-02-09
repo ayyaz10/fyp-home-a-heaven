@@ -8,10 +8,10 @@ function TopNav() {
             <div className="flex items-center text-gray-500">
                 <ul className="flex items-center ml-auto text-xs sm:text-sm">
                     <li><a href="#">My Whislist</a></li>
-                    <li className="ml-4"><a href="#">Track Your Order</a></li>
+                    <li className="ml-3 md:ml-4"><a href="#">Track Your Order</a></li>
                 </ul>
-                <ul className="flex items-center border-l ml-8">
-                    <li className="ml-8"><a href=""><AiFillFacebook size={ICON_SIZE}/></a></li>
+                <ul className="flex items-center border-l ml-4 md:ml-8">
+                    <li className="ml-4 md:ml-8"><a href=""><AiFillFacebook size={ICON_SIZE}/></a></li>
                     <li className="ml-2"><a href=""><AiFillInstagram size={ICON_SIZE}/></a></li>
                     <li className="ml-2"><a href=""><AiFillTwitterSquare size={ICON_SIZE}/></a></li>
                     <li className="ml-2"><a href=""><AiFillLinkedin size={ICON_SIZE}/></a></li>

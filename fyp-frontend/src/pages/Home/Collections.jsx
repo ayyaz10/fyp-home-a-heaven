@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Collection from "./Collection";
+import Collection from "../../components/ui/Collection";
 
 const Collections = () => {
  

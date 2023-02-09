@@ -12,7 +12,7 @@ const Hero = () => {
                     <button className="text-white text-sm md:text-base font-semibold bg-gray-800 px-6 py-2 :md:px-8 rounded-sm">Explore</button>
                 </div>
                 <div className="max-w-sm w-full hidden md:block">
-                    <img className="h-full object-cover" src={heroImage} alt="Hero Image"/>
+                    <img className="h-full object-cover" width="500" height="auto" src={heroImage} alt="Hero Image"/>
                 </div>
             </div>
         </div>
