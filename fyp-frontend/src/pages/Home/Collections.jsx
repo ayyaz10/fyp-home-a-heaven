@@ -15,9 +15,9 @@ const Collections = () => {
 
   return (
     <section className="z-10 max-w-3xl md:max-w-5xl xl:max-w-6xl py-10 md:py-16 px-2 md:px-6 m-auto">
-        <h2 className=" text-center text-gray-800 text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8">Collections</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 place-items-center gap-4">
-            {collections.map((collection, id) => <Collection key={id} collection={collection}/>)}
+        <h2 className=" text-center text-gray-800 text-2xl sm:text-3xl md:text-4xl font-bold mb-8 md:mb-14">Collections</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-1 justify-items-center content-center items-center justify-center gap-4">
+                {collections.map((collection, id) => <Collection key={id} collection={collection}/>)}
         </div>
     </section>
     )
