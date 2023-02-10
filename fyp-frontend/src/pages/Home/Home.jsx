@@ -6,7 +6,7 @@ import Products from "./Products";
 
 function Home() {
   return (
-    <div>
+    <div className="font-jost">
         <Header />
         <Hero />
         <Collections />

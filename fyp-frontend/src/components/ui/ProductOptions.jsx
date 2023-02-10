@@ -1,10 +1,14 @@
-import React from "react";
-import { BsCartPlus, BsHeart } from 'react-icons/bs';
+import React, { useState } from "react";
+import { BsCartPlus, BsCartPlusFill, BsHeart, BsHeartFill } from 'react-icons/bs';
+import ProductOption from "./ProductOption";
+ProductOption
 const ProductOptions = () => {
+  
+    
   return (
     <>
-        <BsCartPlus />
-        <BsHeart />
+        <ProductOption icon={<BsCartPlus />} hoverIcon={<BsCartPlusFill />}/>
+        <ProductOption icon={<BsHeart />} hoverIcon={<BsHeartFill />}/>
     </> 
   )
 };
