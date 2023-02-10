@@ -1,8 +1,10 @@
 import React from "react";
-import Product from "../../components/ui/Product";
 import Slider from "react-slick";
+
+import Product from "../../components/ui/Product";
 import SlickPrevArrow from '../../components/ui/SlickPrevArrow';
 import SlickNextArrow from '../../components/ui/SlickNextArrow';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -25,7 +27,7 @@ const Products = () => {
         dots: false,
         infinite: true,
         speed: 400,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 3000,
         cssEase: "linear",
         slidesToShow: 4,
