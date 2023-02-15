@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare, AiFillLinkedin } from "react-icons/ai";
+import Subscribe from "../../components/form/Subscribe";
 
 const Footer = () => {
   return (
@@ -45,6 +46,7 @@ const Footer = () => {
             <div className="col-4 flex-1 flex flex-col items-center">
                 <div>
                     <h3 className="text-xl font-bold mb-4">Newsletter</h3>
+                    <Subscribe />
                     <ul className="flex gap-2">
                         <li><a href="" className="block text-xl bg-white bg-opacity-30 hover:bg-opacity-50 text p-3 rounded-full cursor-pointer"><AiFillFacebook /></a></li>
                         <li><a href="" className="block text-xl bg-white bg-opacity-30 hover:bg-opacity-50 text p-3  rounded-full cursor-pointer"><AiFillInstagram /></a></li>
