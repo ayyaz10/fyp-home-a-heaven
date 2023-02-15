@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Subscribe = () => {
   return (
-        <form action="">
+        <form action="" className="relative mb-6 w-full max-w-lg">
             <Input />
             <Button />
         </form>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsCartPlus, BsCartPlusFill, BsHeart, BsHeartFill } from 'react-icons/bs';
 import ProductOption from "./ProductOption";
-ProductOption
+
 const ProductOptions = () => {
   
     

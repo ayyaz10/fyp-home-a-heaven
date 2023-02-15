@@ -4,3 +4,8 @@
 @tailwind utilities;
 
 
+@media (min-width: 768px) and (max-width: 1024px){
+    .hero {
+        height: 50vh !important;
+    }
+  }

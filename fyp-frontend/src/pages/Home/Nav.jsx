@@ -6,10 +6,10 @@ const Nav = () => {
     const navLinks = ['Home', 'Collections', 'Contact', 'About']
   return (
         <div className="flex items-center flex-col md:flex-row max-w-3xl md:max-w-5xl xl:max-w-6xl px-2 md:px-6 m-auto">
-            <div className="site-logo hidden md:flex">Site Logo</div>
+            <div className="site-logo hidden md:flex"><a href="#"><img src="src/assets/black-logo.png" width="140" alt="Site Logo" /></a></div>
             <div className="flex items-center bg-white w-full md:hidden py-5 px-2 sm:px-3 md:py-4 md:px-6 z-50 relative ">
-                <div className="site-logo flex-1">Site Logo</div>
-                <div onClick={() => setOpen(!open)} className="flex justify-end flex-1 text-2xl w-full">
+                <div className="site-logo flex-1"><a href="#"><img src="src/assets/black-logo.png" width="120" alt="Site Logo" /></a></div>
+                <div onClick={() => setOpen(!open)} className="flex justify-end flex-1 text-2xl w-full cursor-pointer">
                     {open ? <AiOutlineClose /> : <AiOutlineMenu />}
                 </div>
             </div>
