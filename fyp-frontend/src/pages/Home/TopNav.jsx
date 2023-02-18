@@ -8,7 +8,7 @@ function TopNav() {
             <div className="flex items-center text-gray-500">
                 <ul className="flex flex-1 sm:flex-initial flex-wrap justify-start items-center ml-auto text-xs sm:text-sm">
                     <li><a className="ml-2" href="#">My Whislist</a></li>
-                    {/* <li className="ml-2 mr-2 md:mr-0 md:ml-4"><a href="#">Track Your Order</a></li> */}
+                    <li className="ml-2 mr-2 md:mr-0 md:ml-4"><a href="#">Track Your Order</a></li>
                 </ul>
                 <ul className="flex flex-1 sm:flex-none flex-wrap items-center justify-start border-l ml-0 md:ml-8">
                     <li className="ml-2 md:ml-8"><a href=""><AiFillFacebook size={ICON_SIZE}/></a></li>

@@ -4,7 +4,7 @@ import Subscribe from "../../components/form/Subscribe";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-700">
+    <div className="bg-gray-800">
         <div className="flex flex-wrap text-white max-w-3xl md:max-w-5xl xl:max-w-6xl m-auto py-14 px-5 sm:px-8 md:px-6">
             <div className="col-1 flex-1 flex flex-col items-center">
                 <div className="flex flex-col justify-center">
@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="col-4 lg:flex-1 flex flex-col items-center w-full mt-10 lg:mt-0">
                 <div className="w-full">
                     <h3 className="text-xl font-bold mb-4">Newsletter</h3>
-                    <Subscribe />
+                    <Subscribe inputData={{style:"bg-gray-900 w-full py-3 px-6 rounded-full", placeHolder: "Email"}} buttonData={{style: "absolute right-0 text-black font-semibold bg-white py-3 px-6 rounded-full", text:"Subscribe"}}/>
                     <ul className="flex gap-2">
                         <li><a href="" className="block text-xl bg-white bg-opacity-30 hover:bg-opacity-50 text p-3 rounded-full cursor-pointer"><AiFillFacebook /></a></li>
                         <li><a href="" className="block text-xl bg-white bg-opacity-30 hover:bg-opacity-50 text p-3  rounded-full cursor-pointer"><AiFillInstagram /></a></li>

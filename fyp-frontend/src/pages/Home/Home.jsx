@@ -3,6 +3,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Collections from "./Collections";
 import Products from "./Products";
+import SpecialOffer from "./SpecialOffer";
 import Footer from "./Footer";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         <Hero />
         <Collections />
         <Products />
+        <SpecialOffer />
         <Footer />
     </div>
   )
